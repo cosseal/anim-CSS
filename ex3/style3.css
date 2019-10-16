@@ -1,0 +1,20 @@
+#foo
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    animation-name: exercice3;
+    animation-duration: 4s;
+
+}
+
+@keyframes exercice3 {
+    0% {background: red; left:0; top:0;}
+    25% {background: dodgerblue; left:0; top:200px;}
+    50% {background: #28ff04; left: 200px; top:200px;}
+    75% {background: #dcff03; left: 200px; top:0;}
+    100% {background: red; left:0; top:0;}
+
+
+}

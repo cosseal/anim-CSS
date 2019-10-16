@@ -1,0 +1,25 @@
+#foo
+{
+    width: 100px;
+    height: 100px;
+    background: #ff0000;
+
+    animation-name: bcChange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes bcChange {
+    10% {background: #ff5506}
+    20% {background: #ff9604}
+    30% {background: #ffd106}
+    40% {background: #dcff03}
+    50% {background: #92ff07}
+    60% {background: #5bff05}
+    70% {background: #28ff04}
+    80% {background: #05ff0c}
+    90% {background: #09ff42}
+    100% {background: #07ff7c}
+}
+
